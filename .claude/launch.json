@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "web",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--filter", "@huzaifa/web", "dev"],
+      "port": 3000
+    },
+    {
+      "name": "gateway",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--filter", "@huzaifa/gateway", "dev"],
+      "port": 3001
+    }
+  ]
+}

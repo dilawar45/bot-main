@@ -1,0 +1,2 @@
+# pnpm checks patch files against a hash in pnpm-lock.yaml: keep their line endings identical on every OS.
+*.patch text eol=lf

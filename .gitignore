@@ -1,0 +1,20 @@
+node_modules/
+.pnpm-store/
+.next/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+.vercel/
+.turbo/
+*.tsbuildinfo
+apps/gateway/.wwebjs_auth/
+apps/gateway/.wwebjs_cache/
+apps/web/evals/results/
+
+# Product photos and sheets from the shop for pnpm import:products (never committed).
+/catalog/

@@ -1,0 +1,10 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+onlyBuiltDependencies:
+  - puppeteer
+  - sharp
+  - unrs-resolver
+patchedDependencies:
+  whatsapp-web.js@1.34.7: patches/whatsapp-web.js@1.34.7.patch

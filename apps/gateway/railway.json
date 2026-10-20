@@ -1,0 +1,12 @@
+{
+  "build": {
+    "builder": "DOCKERFILE",
+    "dockerfilePath": "apps/gateway/Dockerfile"
+  },
+  "deploy": {
+    "healthcheckPath": "/health/live",
+    "healthcheckTimeout": 30,
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 5
+  }
+}

@@ -1,0 +1,18 @@
+# Keep secrets, sessions and local builds out of Docker build context and images.
+**/node_modules
+**/.next
+**/dist
+**/.env
+**/.env.*
+!**/.env.example
+**/.wwebjs_auth
+**/.wwebjs_cache
+**/*.log
+**/*.tsbuildinfo
+.git
+.vscode
+.claude
+.agents
+apps/web
+docs
+supabase
